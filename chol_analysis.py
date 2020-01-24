@@ -8,7 +8,7 @@ def cholesterol_analysis():
 def print_daw(mystring):
     print(mystring)
     print(mystring)
-        
+    print("Another stinr")        
 
 
 def interface():
