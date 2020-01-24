@@ -1,9 +1,20 @@
+def HDL_analysis():
+    pass
+
+def LDL_analysis():
+    pass
+
+
+
 def cholesterol_analysis():
     print("Cholesterol Analysis")
     HDLinput = input("Enter test result: ")
     test_info = HDLinput.split("=")
     if test_info[0] == "HDL":
         HDL_analysis()
+    if test_info[0] == "LDL":
+        LDL_analysis()
+
         
 def print_daw(mystring):
     print(mystring)
@@ -22,9 +33,10 @@ def interface():
             return
         elif choice == "1":
             cholesterol_analysis()
-            
-        
-        
+
+
+
 if __name__ == "__main__":
     print_daw("helo")
     interface()
+
