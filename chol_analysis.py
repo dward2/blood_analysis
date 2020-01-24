@@ -5,6 +5,10 @@ def cholesterol_analysis():
     if test_info[0] == "HDL":
         HDL_analysis()
         
+def print_daw(mystring):
+    print(mystring)
+    print(mystring)
+        
 
 
 def interface():
@@ -22,4 +26,5 @@ def interface():
         
         
 if __name__ == "__main__":
+    print_daw("helo")
     interface()
