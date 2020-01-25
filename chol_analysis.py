@@ -35,8 +35,7 @@ def cholesterol_analysis():
     elif test_info[0].strip() == "TOT":
         print(TOT_analysis(int(test_info[1])))
 
-
-
+        
 def interface():
     while True:
         print("Cholesterol Calculator")
@@ -53,5 +52,3 @@ def interface():
 
 if __name__ == "__main__":
     interface()
-    print('Hello')
-    print('First')
