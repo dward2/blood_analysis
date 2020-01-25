@@ -1,6 +1,6 @@
 def HDL_analysis(HDL_level):
     if HDL_level >= 60:
-        return 'Nromal'
+        return 'Normal'
     elif 40 <= HDL_level < 60:
         return 'Borderline low'
     else :
@@ -8,7 +8,7 @@ def HDL_analysis(HDL_level):
 
 def LDL_analysis(LDL_level):
     if LDL_level <= 130:
-        return 'Nromal'
+        return 'Normal'
     elif 130 < LDL_level <= 159:
         return 'Borderline high'
     elif 160 <= LDL_level <189 :
@@ -18,7 +18,7 @@ def LDL_analysis(LDL_level):
 
 def TOT_analysis(TOT_level):
     if TOT_level < 200:
-        return 'Nromal'
+        return 'Normal'
     elif 200 <= TOT_level <= 239:
         return 'Borderline high'
     elif 240 <= TOT_level:
