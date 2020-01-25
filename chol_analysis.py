@@ -26,12 +26,14 @@ def TOT_analysis(TOT_level):
 
 def cholesterol_analysis():
     print("Cholesterol Analysis")
-    HDLinput = input("Enter test result: ")
-    test_info = HDLinput.split("=")
-    if test_info[0] == "HDL":
-        HDL_analysis()
-    if test_info[0] == "LDL":
-        LDL_analysis()
+    DLinput = input("Enter test result: ")
+    test_info = DLinput.split("=")
+    if test_info[0].strip() == "HDL":
+        print(HDL_analysis(int(test_info[1])))
+    elif test_info[0].strip() == "LDL":
+        print(LDL_analysis(int(test_info[1])))
+    elif test_info[0].strip() == "TOT":
+        print(TOT_analysis(int(test_info[1])))
 
 
 
