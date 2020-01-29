@@ -34,6 +34,9 @@ def cholesterol_analysis():
         print(LDL_analysis(int(test_info[1])))
     elif test_info[0].strip() == "TOT":
         print(TOT_analysis(int(test_info[1])))
+        
+def new_feature():
+    pass
 
         
 def interface():
