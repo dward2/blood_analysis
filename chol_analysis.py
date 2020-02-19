@@ -4,7 +4,7 @@ def HDL_analysis(HDL_level):
     elif 40 <= HDL_level < 60:
         return 'Borderline low'
     else:
-        return 'Low'
+        return 'Lower'
 
 
 def LDL_analysis(LDL_level):
